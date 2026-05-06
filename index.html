@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerta Vermelho</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container mt-5">
+    <h1>Alerta Vermelho</h1>
+    <button id="alertButton" class="btn btn-primary">Clique para ver o Alerta Vermelho</button>
+    <div id="alertContainer" class="mt-3"></div>
+
+    <hr class="my-5">
+
+    <h1>Sinal de Trânsito</h1>
+    <label class="form-label">Selecione a cor do sinal:</label>
+    <select id="selecioneSinal" class="form-select">
+        <option value="">Escolha uma cor</option>
+        <option value="red">Vermelho</option>
+        <option value="yellow">Amarelo</option>
+        <option value="green">Verde</option>
+    </select>
+    <div id="trafegoSinal" class="mt-3" style="width: 100px; height: 100px; border-radius: 50%; border: 2px solid black;"></div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
